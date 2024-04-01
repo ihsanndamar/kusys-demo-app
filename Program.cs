@@ -1,7 +1,11 @@
+using kusys_demo_app.Data;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+builder.Services.AddRegistration(configuration: builder.Configuration);
 
 var app = builder.Build();
 

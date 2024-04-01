@@ -7,4 +7,12 @@
     <RootNamespace>kusys_demo_app</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.6" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Views\Login\" />
+  </ItemGroup>
+
 </Project>
